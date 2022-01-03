@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 345px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.img-equilibrium img{
+    width: 345px;
+    border-radius: 15px;
+}
+
+.card-title h2{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card-p p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.eth{
+    display: inline;
+}
+
+.eth p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-left: 20px;
+    display: inline;
+}
+
+.eth img{
+    position: absolute;
+}
+
+.time p{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.copyright p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    position: relative;
+    top: 15px;
+}
+
+span{
+    color: white;
+}
+
+.copyright img{
+    width: 30px;
+    border: solid 1px white;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.attribution{
+    text-align: center;
+    margin: auto;
+}
+
+.eth{
+    position: relative;
+    display: inline;
+    top: 5px;
+    left: 5px;
+}
+
+.time{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    bottom: 30px;
+}
